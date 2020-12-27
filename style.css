@@ -1,0 +1,55 @@
+*{
+    background-color: bisque
+}
+#area{
+    margin: 50px 0 0 450px;
+    height: 25px;
+    width: 300px;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    font-size: larger;
+}
+#keyb{
+    padding: 50px 0 0 380px;
+
+}
+
+.row{
+    padding: 7px 0 0 0;
+}
+
+button{
+  font-size: 1.1em;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  background-color:lightgrey;
+}
+
+.tab{
+    width: 90px;
+}
+
+.slash{
+    width: 40px;
+}
+
+.caps{
+    width: 70x;
+}
+
+.enter{
+    width: 70px;
+}
+
+.shift{
+    width: 70px;
+}
+
+.extra{
+    width: 30px;
+}
+
+.space{
+    width: 458px;
+}

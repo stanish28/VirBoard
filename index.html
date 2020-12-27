@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="contanier">
+       <textarea id="area"></textarea>
+    <div id="keyb">
+      <div class="row one">
+          <button onclick="myFunction(this.textContent)">`</button>
+          <button onclick="myFunction(this.textContent)" >1</button>
+          <button onclick="myFunction(this.textContent)">2</button>
+          <button onclick="myFunction(this.textContent)">3</button>
+          <button onclick="myFunction(this.textContent)">4</button>
+          <button onclick="myFunction(this.textContent)">5</button>
+          <button onclick="myFunction(this.textContent)">6</button>
+          <button onclick="myFunction(this.textContent)">7</button>
+          <button onclick="myFunction(this.textContent)">8</button>
+          <button onclick="myFunction(this.textContent)">0</button>
+          <button onclick="myFunction(this.textContent)">-</button>
+          <button onmousedown="myBackspace(this.textContent)">Backspace</button>
+      </div>
+      <div class="row two">
+          <button class="tab" onclick="myFunction(this.textContent)">Tab</button>
+          <button onclick="myFunction(this.textContent)">q</button>
+          <button onclick="myFunction(this.textContent)">w</button>
+          <button onclick="myFunction(this.textContent)">e</button>
+          <button onclick="myFunction(this.textContent)">r</button>
+          <button onclick="myFunction(this.textContent)">t</button>
+          <button onclick="myFunction(this.textContent)">y</button>
+          <button onclick="myFunction(this.textContent)">u</button>
+          <button onclick="myFunction(this.textContent)">i</button>
+          <button onclick="myFunction(this.textContent)">o</button>
+          <button onclick="myFunction(this.textContent)">p</button>
+          <button class="slash" onclick="myFunction(this.textContent)">\</button>
+      </div>
+      <div class="row three">
+          <button class="caps" onclick="myFunction(this.textContent)">CapsLk</button>
+          <button onclick="myFunction(this.textContent)">a</button>
+          <button onclick="myFunction(this.textContent)">s</button>
+          <button onclick="myFunction(this.textContent)">d</button>
+          <button onclick="myFunction(this.textContent)">f</button>
+          <button onclick="myFunction(this.textContent)">g</button>
+          <button onclick="myFunction(this.textContent)">h</button>
+          <button onclick="myFunction(this.textContent)">j</button>
+          <button onclick="myFunction(this.textContent)">k</button>
+          <button onclick="myFunction(this.textContent)">l</button>
+          <button onclick="myFunction(this.textContent)">'</button>
+          <button class="enter" onclick="myFunction(this.textContent)">Enter</button>
+      </div>
+      <div class="row four">
+          <button class="shift" onclick="myFunction(this.textContent)">Shift</button>
+          <button onclick="myFunction(this.textContent)">z</button>
+          <button onclick="myFunction(this.textContent)">x</button>
+          <button onclick="myFunction(this.textContent)">c</button>
+          <button onclick="myFunction(this.textContent)">v</button>
+          <button onclick="myFunction(this.textContent)">b</button>
+          <button onclick="myFunction(this.textContent)">n</button>
+          <button onclick="myFunction(this.textContent)">m</button>
+          <button class="extra" onclick="myFunction(this.textContent)">,</button>
+          <button class="extra" onclick="myFunction(this.textContent)">.</button>
+          <button class="extra" onclick="myFunction(this.textContent)">/</button>
+          <button class="extra" onclick="myFunction(this.textContent)">;</button>
+      </div>
+      <div class="row five">
+          <button class="space" onclick="mySpace(this.textContent)">Space Bar</button>
+      </div>
+    </div>
+   </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
